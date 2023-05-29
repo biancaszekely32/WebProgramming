@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Netflix</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body style="background-color: #000000; ">
+    <h1 style="color: #DF1212; font-weight: bold; text-align:center">Netflix Dropdown Menu</h1>
+    <h4 style="color: #B00E0E">
+        Write a javascript which implements a drop-down menu with 5 principal submenus and between 3 and 5 components for each submenu.</h4>
+
+
+        <div class="menu" onclick="show('submenu')" ondblclick="hide('submenu')">
+            <p style="font-weight: bold; padding: 8px;">Menu</p>
+            <div class="submenu" onmouseover="show('submenu1_component')" onmouseout="hide('submenu1_component')" style="background-color: #CF3838">
+                <p>TVShows</p>
+                <div class="components">
+                    <div class='submenu1_component'>
+                        <p>Love is blind</p>
+                    </div>
+                    <div class='submenu1_component'>
+                        <p>Blacklist</p>
+                    </div>
+                    <div class='submenu1_component'>
+                        <p>You</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="submenu" onmouseover="show('submenu2_component')" onmouseout="hide('submenu2_component')" style="background-color: #F04343">
+                <p>Movies </p>
+                <div class="components">
+                    <div class="submenu2_component">
+                        <p>I came by</p>
+                    </div>
+                    <div class="submenu2_component">
+                        <p>Team Building</p>
+                    </div>
+                    <div class="submenu2_component">
+                        <p>The notebook</p>
+                    </div>
+                    <div class="submenu2_component">
+                        <p>John Wick</p>
+                    </div>
+                    <div class="submenu2_component">
+                        <p>Enola Holmes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="submenu" onmouseover="show('submenu3_component')" onmouseout="hide('submenu3_component')" style="background-color: #CF3838 ">
+                <p>MyList</p>
+                <div class="components">
+                    <div class="submenu3_component">
+                        <p>Blacklist</p>
+                    </div>
+                    <div class="submenu3_component">
+                        <p>Enola Holmes</p>
+                    </div>
+                    <div class="submenu3_component">
+                        <p>I came by</p>
+                    </div>
+                    <div class="submenu3_component">
+                        <p>You</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="submenu" onmouseover="show('submenu4_component')" onmouseout="hide('submenu4_component')" style="background-color: #F04343">
+                <p>New&Popular</p>
+                <div class="components">
+                    <div class="submenu4_component">
+                        <p>Murder Mistery 2</p>
+                    </div>
+                    <div class="submenu4_component">
+                        <p>Firefly Lane</p>
+                    </div>
+                    <div class="submenu4_component">
+                        <p>Unseen</p>
+                    </div>
+                    <div class="submenu4_component">
+                        <p>Good Doctor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="submenu" onmouseover="show('submenu5_component')" onmouseout="hide('submenu5_component')" style="background-color: #CF3838 ">
+                <p>MyDownloads</p>
+                <div class="components">
+                    <div class="submenu5_component">
+                        <p>Love is Blind</p>
+                    </div>
+                    <div class="submenu5_component">
+                        <p>You</p>
+                    </div>
+                    <div class="submenu5_component">
+                        <p>Firefly Lane</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="Script.js">
+        </script>
+
+</body>
+</html>
